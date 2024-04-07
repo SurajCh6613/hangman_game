@@ -1,9 +1,10 @@
 import random
 import hangman_stages
-word_list = ['apple','beautiful','potato']
+import word_file
+# word_list = ['apple','beautiful','potato']
 lives =6
 # Choose Random word from word_list
-choosen_word = random.choice(word_list)
+choosen_word = random.choice(word_file.words)
 print(choosen_word)
 display =[]
 # To place empty space(_) at the place of words
