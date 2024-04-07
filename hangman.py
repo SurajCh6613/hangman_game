@@ -28,3 +28,4 @@ while not game_over:
     if '_' not in display:
         game_over = True
         print("You Win")
+print(hangman_stages.stages[lives])
