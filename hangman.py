@@ -1,4 +1,5 @@
 import random
+import hangman_stages
 word_list = ['apple','beautiful','potato']
 lives =6
 # Choose Random word from word_list
