@@ -5,7 +5,7 @@ import word_file
 lives =6
 # Choose Random word from word_list
 choosen_word = random.choice(word_file.words)
-print(choosen_word)
+# print(choosen_word)   #To Display choosed random word
 display =[]
 # To place empty space(_) at the place of words
 for i in range(len(choosen_word)):
